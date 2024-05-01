@@ -5,9 +5,6 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Objects;
-import java.util.stream.IntStream;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -27,6 +24,7 @@ public class Main {
         Integer MaxCoins2 = (MaxPowerCoins + 8000) * brawlercount; //8000 = 4000 from both star powers + 2000 from both gadgets + 2000 from two gears
         Integer MaxCoins3 = MaxPowerCoins * brawlercount;
         Integer MaxPowerPoints = brawlercount * MaxPowerPowerPoints;
+        System.out.print("Input player tag: ");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String tag = reader.readLine();
         if(tag.startsWith("#")){
