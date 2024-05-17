@@ -12,7 +12,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 public class Main {
     public static void main(String[] args) throws ParseException, IOException {
-        String AuthToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjU5YTEwYmNiLWVjMTAtNGQ2Mi04NDFmLTNhMTgwOTk1ZTQzOSIsImlhdCI6MTcxNDQ5NTQ2Nywic3ViIjoiZGV2ZWxvcGVyLzhhOTJlMzk3LTJhZDAtNTFiZS1lM2M1LTBkZDExZjgzNGYxZSIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiNzguNjEuNjEuMTc0Il0sInR5cGUiOiJjbGllbnQifV19.Ll1XXKL0q1FOmJmvTe4l01d-nDm3vF8KvvMW6V3KPpSQBZTvAuVeVlh4deSv4KzLydJjHlrCNTa4bggAi_oEfQ";
+        String AuthToken = "";
         Integer brawlercount = 79;
         Integer[] GearsRare = {62000000, 62000001, 62000002, 62000003, 62000004, 62000017};
         Integer[] GearsEpic = {62000005, 62000006, 62000014};
