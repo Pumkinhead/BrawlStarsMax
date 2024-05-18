@@ -13,9 +13,8 @@ import java.net.URL;
 import java.util.Arrays;
 
 public class Get {
-    public static String Stats(String tag) throws ParseException, IOException {
+    public static String Stats(String tag, String AuthToken) throws ParseException, IOException {
         StringBuilder toReturn = new StringBuilder();
-        String AuthToken = "your_token";
         URL brawlerUrl = new URL("https://api.brawlstars.com/v1/brawlers");
         HttpURLConnection brawlerCon;
         brawlerCon = (HttpURLConnection) brawlerUrl.openConnection();

@@ -12,9 +12,11 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 public class Main {
     public static void main(String[] args) throws ParseException, IOException {
-        System.out.print("Input player tag: ");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Input token: ");
+        String token = reader.readLine();
+        System.out.print("Input player tag: ");
         String tag = reader.readLine();
-        System.out.println(Get.Stats(tag));
+        System.out.println(Get.Stats(tag, token));
     }
 }
